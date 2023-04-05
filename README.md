@@ -9,7 +9,9 @@ gpt2使用./config/model_config_small.json 配置时，在colab上15G的GPU中�
 所以改用 ./config/model_config_small.json。
 
 运行命令：
+```code
 python train.py  \
 --raw --num_pieces=1 \
 --model_config='config/model_config_test.json' \
 --epochs=5
+```
